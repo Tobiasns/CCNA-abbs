@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<div id="wholePage">
+    <form class="form">
+        <input type="hidden" id="abbrevationID" value="1">
+        <div class="form-group">
+            <label for="currentAbbrevation">Current abbrevation: </label>
+            <h4 id="currentAbbrevation"></h4>
+        </div>
+        <div class="form-group">
+            <label for="guess">Write the full name here(big letters at start of each word): </label>
+            <input type="text" class="form-control" id="userInput" onkeyup="checkAnswer()">
+        </div>
+    </form>
+    <br>
+    <h4 id="points"></h4>
+</div>
+{% endblock %}

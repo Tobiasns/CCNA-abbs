@@ -1,0 +1,5 @@
+1	DHCP	Dynamic Host Configuration Protocol
+2	OSPF	Open Shortest Path First
+3	EIGRP	Enhanced Interior Gateway Routing Protocol
+4	RIP	Routing Information Protocol
+5	LAN	Local Area Network
